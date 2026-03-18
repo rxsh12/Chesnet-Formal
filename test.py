@@ -37,4 +37,4 @@ filtered_df = pd.DataFrame(valid_rows).reset_index(drop=True)
 
 # Step 4: Save cleaned test.csv
 filtered_df.to_csv('cleaned_test.csv', index=False)
-print(f"\n✅ Cleaned test.csv saved with {len(filtered_df)} valid entries out of {len(test_df)}.")
+print(f"\n✅ Clean test.csv saved with {len(filtered_df)} valid entries out of {len(test_df)}.")
